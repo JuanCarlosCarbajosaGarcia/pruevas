@@ -31,7 +31,5 @@ public class pruebas {
             if (c == 7) {
                 
             }
-        
-    
     }
 }
