@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    color: cyan;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    color: red;
+    text-align: justify;
+    font-family: arial, helvetica;
+    font-style: italic;
+}
+a[href*=".es"]{
+        color: gold;
+        background-color: black;
+        text-align: right;
+        font-family: verdana;
+        font-size: 20pt;
+        font-style: italic;
+}
+
+div[lang="es"]{
+    color: red;
+    background-color: pink;
+    border: 2pt;
+    border-color: lime;
+}
+div{
+    color: blue;
+    background-color: beige;
+    border: 2pt;
+    border-color: purple;
+}
+
+div[lang="en"]{
+    color: blue;
+}
+
+div[lang]{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+table{
+    border: 2pt;
+    color: violet;
+    background-color: bisque;
+    border-color: salmon;
+}
+
+p{
+    color: teal;
+    background-color: burlywood;
+    font-family: cursive;
+    font-size: 15pt;
+}
+th{
+    color: white;
+    background-color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 25pt;
+}
