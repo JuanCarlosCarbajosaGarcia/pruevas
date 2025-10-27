@@ -19,17 +19,17 @@ public class pruebas {
             System.out.print(array[a] + " ");
             a++;           
         } while (a < 3);
+        
     }
     public static void main(String[] args) {
         
-    class Innerpruebas {}
-    int c = 0;
+    int c = 1;
         do {
             System.out.println("que pase el numero: " + c);
             c ++;
         } while (c < 9);
-            if (c == 7) {
-                
-            }
+        if (c == 9) {
+            System.out.println("numero " + c + " pase a quirofano");
+        }
     }
 }
