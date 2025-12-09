@@ -28,6 +28,8 @@ public class pruebas {
             System.out.println("que pase el numero: " + c);
             c ++;
         } while (c < 9);
-        System.out.println("fin de consultas");
+        if (c == 9) {
+            System.out.println("numero " + c + " pase a quirofano");
+        }
     }
 }
